@@ -23,19 +23,26 @@ This end-to-end business intelligence project simulates a vehicle loan platform 
 
 ## 🗂️ Project Structure
 
+```
 /
-├── architecture 
-│ ├── power bi reports layout  # Diagrams of Power BI reports
-│ └── erd.png # Final ER diagram with dimensions & facts
-├── data
-│ ├── bronze/ # Raw CSVs
-│ ├── silver/ # Cleaned Parquet files
-│ └── gold/ # Final tables (SQL-based)
+├── architecture/
+│   ├── erd.png                   # Final ER diagram with dimensions & facts
+│   └── power_bi_reports_layout/  # Diagrams of Power BI reports
 │
-├── notebooks/ # Fabric notebooks for cleaning and prep
-├── powerbi/ # [Coming Soon] .pbix file + screenshots
-├── semantic_models/ # [Coming Soon] Semantic model with DAX measures
-└── README.md # Project overview (this file)
+├── data/
+│   ├── bronze/                   # Raw CSVs
+│   ├── silver/                   # Cleaned Parquet files
+│   └── gold/                     # Final tables (SQL-based)
+│
+├── notebooks/                   # Fabric notebooks for cleaning and prep
+│
+├── powerbi/                     # [Coming Soon] .pbix file + report screenshots
+│
+├── semantic_models/            # [Coming Soon] Semantic model with DAX measures
+│
+└── README.md                   # Project overview (this file)
+```
+
 
 ---
 
